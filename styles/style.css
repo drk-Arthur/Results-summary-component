@@ -56,12 +56,56 @@ div#score h1 {
 }
 
 
-
+div#summary {
+    margin-left: 30px;
+}
 div#summary h2 {
-    color: #434957;
+    color: #2f333b;
     font-size: 1.1em;
+    margin-top: 20px;
+    font-weight: 900;
 }
 
-div#summary  h3 {
+
+div#summary  h3, div#summary p {
     display: inline-block;
+}
+
+div#summary button {
+    display: block;
+}
+
+div.summary-score {
+    padding: 20px;
+    background-color: gray;
+    margin-top: 20px;
+    width: 76vw;
+    border-radius: 10px;
+    text-align: right;
+}
+
+div.summary-score h3{
+    float: left;
+}
+
+div.summary-score img {
+    display: inline-block;
+}
+
+
+
+div#continue {
+    width: 76vw;
+    padding: 20px;
+    text-align: center;
+    background: #303B59;
+    margin-top: 28px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+div#continue > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
 }
