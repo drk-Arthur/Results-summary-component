@@ -109,3 +109,32 @@ div#continue > a {
     color: white;
     font-size: 1.3em;
 }
+
+
+h3#reaction {
+    color: hsl(0, 100%, 67%);
+}
+div#reaction {
+    background-color: hsla(0, 100%, 67%, 0.103);
+}
+
+h3#memory {
+    color: hsl(39, 100%, 56%);
+}
+div#memory {
+    background-color: hsla(39, 100%, 56%, 0.103);
+}
+
+h3#verbal {
+    color: hsl(166, 100%, 37%);
+}
+div#verbal {
+    background-color: hsla(166, 100%, 37%, 0.103);
+}
+
+h3#visual {
+    color: hsl(234, 85%, 45%);
+}
+div#visual {
+    background-color: hsla(234, 85%, 45%, 0.103);
+}
